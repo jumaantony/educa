@@ -1,0 +1,78 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Information Security",
+    "slug": "information-security"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Engineering",
+    "slug": "engineering"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 4,
+    "title": "Introduction to Telecomunications",
+    "slug": "introduction-to-telecomunications",
+    "overview": "Sometimes, you might want to prepopulate your database with hardcoded data.\r\nThis is useful for automatically including initial data in the project setup, instead of\r\nhaving to add it manually. Django comes with a simple way to load and dump data\r\nfrom the database into files that are called fixtures. Django supports fixtures in JSON,\r\nXML, or YAML formats. You are going to create a fixture to include several initial\r\nSubject objects for your project.\r\nFirst, create a superuser using the following command:\r\npython manage.py createsuperuser\r\nThen, run the development server using the following command:\r\npython manage.py runserver\r\nOpen http://127.0.0.1:8000/admin/courses/subject/ in your browser.\r\nCreate several su",
+    "created": "2022-02-13T20:00:52.346Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 3,
+    "title": "Linux Fundamentals",
+    "slug": "linux-fundamentals",
+    "overview": "Sometimes, you might want to prepopulate your database with hardcoded data.\r\nThis is useful for automatically including initial data in the project setup, instead of\r\nhaving to add it manually. Django comes with a simple way to load and dump data\r\nfrom the database into files that are called fixtures. Django supports fixtures in JSON,\r\nXML, or YAML formats. You are going to create a fixture to include several initial\r\nSubject objects for your project.\r\nFirst, create a superuser using the following command:\r\npython manage.py createsuperuser\r\nThen, run the development server using the following command:\r\npython manage.py runserver\r\nOpen http://127.0.0.1:8000/admin/courses/subject/ in your browser.\r\nCreate several su",
+    "created": "2022-02-13T20:02:09.142Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Introduction 1",
+    "description": "Sometimes, you might want to prepopulate your database with hardcoded data.\r\nThis is useful for automatically including initial data in the project setup, instead of\r\nhaving to add it manually. Django comes with a simple way to load and dump data\r\nfrom the database into files that are called fixtures. Django supports fixtures in JSON,\r\nXML, or YAML formats. You are going to create a fixture to include several initial\r\nSubject objects for your project.\r\nFirst, create a superuser using the following command:\r\npython manage.py createsuperuser\r\nThen, run the development server using the following command:\r\npython manage.py runserver\r\nOpen http://127.0.0.1:8000/admin/courses/subject/ in your browser.\r\nCreate several su"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Introduction 2",
+    "description": "Sometimes, you might want to prepopulate your database with hardcoded data.\r\nThis is useful for automatically including initial data in the project setup, instead of\r\nhaving to add it manually. Django comes with a simple way to load and dump data\r\nfrom the database into files that are called fixtures. Django supports fixtures in JSON,\r\nXML, or YAML formats. You are going to create a fixture to include several initial\r\nSubject objects for your project.\r\nFirst, create a superuser using the following command:\r\npython manage.py createsuperuser\r\nThen, run the development server using the following command:\r\npython manage.py runserver\r\nOpen http://127.0.0.1:8000/admin/courses/subject/ in your browser.\r\nCreate several su"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 2,
+    "title": "Introduction 1",
+    "description": "Sometimes, you might want to prepopulate your database with hardcoded data.\r\nThis is useful for automatically including initial data in the project setup, instead of\r\nhaving to add it manually. Django comes with a simple way to load and dump data\r\nfrom the database into files that are called fixtures. Django supports fixtures in JSON,\r\nXML, or YAML formats. You are going to create a fixture to include several initial\r\nSubject objects for your project.\r\nFirst, create a superuser using the following command:\r\npython manage.py createsuperuser\r\nThen, run the development server using the following command:\r\npython manage.py runserver\r\nOpen http://127.0.0.1:8000/admin/courses/subject/ in your browser.\r\nCreate several su"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "course": 2,
+    "title": "Introduction 2",
+    "description": "Sometimes, you might want to prepopulate your database with hardcoded data.\r\nThis is useful for automatically including initial data in the project setup, instead of\r\nhaving to add it manually. Django comes with a simple way to load and dump data\r\nfrom the database into files that are called fixtures. Django supports fixtures in JSON,\r\nXML, or YAML formats. You are going to create a fixture to include several initial\r\nSubject objects for your project.\r\nFirst, create a superuser using the following command:\r\npython manage.py createsuperuser\r\nThen, run the development server using the following command:\r\npython manage.py runserver\r\nOpen http://127.0.0.1:8000/admin/courses/subject/ in your browser.\r\nCreate several su"
+  }
+}
+]
